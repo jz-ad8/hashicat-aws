@@ -4,8 +4,4 @@ module "s3_buckets" {
   bucket = "boop"
   acl    = "private"
 
-  versioning = {
-    enabled = true
-  }
-
 }
