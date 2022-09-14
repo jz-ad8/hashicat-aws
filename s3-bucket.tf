@@ -1,4 +1,4 @@
-module "s3_bucket" {
+module "s3_buckets" {
   source = "github.com/jz-ad8/terraform-aws-s3-bucket"
 
   bucket = "boop"
